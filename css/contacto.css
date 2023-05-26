@@ -1,0 +1,49 @@
+.mapa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    margin: auto 20%;
+    padding: 10% 0;
+}
+
+.contactos {
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactos h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.contactos p {
+    font-size: 1.5rem;
+}
+.contactos a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+.contactos a:hover {
+    text-shadow: #fff 3px 0 10px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .contactos {
+        width: 98%;
+    }
+    .contactos h3, p, a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 3% 0;
+    }
+}
+

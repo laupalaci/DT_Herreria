@@ -1,0 +1,74 @@
+/*Esto va a un archivo head.css*/
+
+.head {
+    color: #FFFFFF;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    border-bottom: 1px solid #103D4A;
+
+    position: absolute;
+}
+
+.head__logo {
+    margin-bottom: 1rem;
+}
+
+.head__navegacion {
+    text-align: center;
+}
+
+.head__enlace {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+
+/* Esto va a un archivo llamada.css*/
+
+.llamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFFFFF;
+    text-align: center;
+    
+    background-color: #00161C;
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.llamada__titulo {
+    font-family: 'Montserrat', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.llamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.llamada__boton {
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+footer {
+    background: url(../Img/textura-footer.jpg);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-footer {
+    height: 70px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
